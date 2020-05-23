@@ -30,13 +30,13 @@ location.
 
 Local
 
-While in directory `PORT=9090 go run ./cmd/atlascorp/main.go`
+While in directory `PORT=9090 go run ./cmd/dns/main.go`
 
 Docker
 
-`docker build -t atlascorp .`
+`docker build -t dns .`
 
-`docker run -p 9090:9090 -e PORT=9090 atlascorp`
+`docker run -p 9090:9090 -e PORT=9090 dns`
 
 ###Question/Answers
 
