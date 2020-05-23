@@ -1,14 +1,14 @@
-#Atlas Corporation DNS Service
+# Atlas Corporation DNS Service
 
-###Overview
+### Overview
 
 The service runs an API server with a single endpoint `/api/v1/dns` that 
 takes X, Y, Z coordinates and velocity of the drone as input and responds with 
 location.
 
-###Sample I/O
+### Sample I/O
 
-#####Input
+##### Input
 ```
 {
 	"x": "123.5",
@@ -18,7 +18,7 @@ location.
 }
 ```
 
-#####Output
+##### Output
 
 ```
 {
@@ -26,7 +26,7 @@ location.
 }
 ```
 
-###Run Instructions
+### Run Instructions
 
 Local
 
@@ -38,7 +38,7 @@ Docker
 
 `docker run -p 9090:9090 -e PORT=9090 dns`
 
-###Question/Answers
+### Question/Answers
 
 **What instrumentation this service would need to ensure its observability and operational
 transparency?**
